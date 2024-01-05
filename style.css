@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* topview window with navbar */
+.main {
+    background-image: url(Video&Images/image/bg.png);
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 600px;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    z-index: 10;
+    opacity: 1;
+    position: relative;
+}
+
+.topcontent {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 24px;
+    padding: 0 30px;
+    position: relative;
+}
+
+.topcontent> :first-child {
+    /* font-family: "poopins",sans-serif; */
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+}
+
+.topcontent> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.topcontent> :nth-child(3) {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.btn {
+    /* font-family: "poopins",sans-serif; */
+    padding: 6px 10px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.468);
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn-red {
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.topcontent-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main input {
+    font-family: sans-serif;
+    padding: 15px 101px 8px 10px;
+    margin: 15px 15px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(23, 23, 23, 0.7);
+    text-align: left;
+}
+
+.btn-red-si {
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
+
+.horizontal-line {
+    height: 7.5px;
+    background-color: rgb(52, 52, 52);
+    position: relative;
+    z-index: 20;
+    width: 100%;
+}
+
+/* main section view */
+.MainSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.MainSec>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.MainSec>div :nth-child(1) {
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.MainSec>div :nth-child(2) {
+    font-size: 20px;
+}
+
+.secImgVid {
+    position: relative;
+}
+
+.secImgVid img {
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.secImgVid video {
+    position: absolute;
+    right: 2px;
+    top: 70px;
+    width: 490px;
+}
+
+.third .secImgVid video {
+    position: absolute;
+    right: 100px;
+    width: 350px;
+    top: 70px;
+}
+
+.downloadbox {
+    display: flex;
+    background-color: black;
+    border: 2px solid rgba(128,128,128,0.7);
+    width: 20vw;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    z-index: 10;
+    justify-content: space-around;   
+    margin: auto; 
+    bottom: 110px;
+    overflow: hidden;
+}
+
+.downloadbox img {
+    width: 50px;
+    height: 55px;
+}
+
+.downWord {
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadbox>div :first-child {
+    font-size: 12px;
+    padding: 2px 2px;
+}
+
+.downloadbox>div :nth-child(2) {
+    font-size: 12px;
+    padding: 2px 2px;
+    color: #0071eb;
+}
