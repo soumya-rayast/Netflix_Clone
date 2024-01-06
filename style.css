@@ -58,7 +58,7 @@ nav img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     gap: 24px;
     padding: 0 30px;
     position: relative;
@@ -87,7 +87,7 @@ nav img {
     /* font-family: "poopins",sans-serif; */
     padding: 6px 10px;
     font-weight: 400;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.468);
     border: 1px solid white;
     border-radius: 3px;
@@ -115,7 +115,7 @@ nav img {
     font-family: sans-serif;
     padding: 15px 101px 8px 10px;
     margin: 15px 15px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-size: 12px;
     border-radius: 4px;
     border: 1px solid rgba(246, 238, 238, 0.5);
@@ -126,7 +126,7 @@ nav img {
 .btn-red-si {
     font-family: sans-serif;
     background-color: red;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     border: none;
     padding: 6px 10px;
 }
@@ -148,7 +148,7 @@ nav img {
     align-items: center;
     max-width: 70vw;
     margin: auto;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 }
 
 .MainSec>div {
@@ -193,7 +193,7 @@ nav img {
 .downloadbox {
     display: flex;
     background-color: black;
-    border: 2px solid rgba(128,128,128,0.7);
+    border: 2px solid rgba(128, 128, 128, 0.7);
     width: 20vw;
     height: 80px;
     justify-content: center;
@@ -201,8 +201,8 @@ nav img {
     position: relative;
     border-radius: 10px;
     z-index: 10;
-    justify-content: space-around;   
-    margin: auto; 
+    justify-content: space-around;
+    margin: auto;
     bottom: 110px;
     overflow: hidden;
 }
@@ -230,16 +230,18 @@ nav img {
 
 
 /* Frequently asked question box */
-.faq{
-    color: rgb(255,255,255);
+.faq {
+    color: rgb(255, 255, 255);
     background-color: black;
     padding: 35px;
 }
-.faq h2{
+
+.faq h2 {
     text-align: center;
     font-size: 44px;
 }
-.faq-box{
+
+.faq-box {
     display: flex;
     justify-content: space-between;
     background-color: rgb(55, 55, 55);
@@ -251,77 +253,86 @@ nav img {
     transition: all 0.5s ease-out;
 
 }
-.faq-box svg{
-    color: rgb(255,255,255);
+
+.faq-box svg {
+    color: rgb(255, 255, 255);
     filter: invert(1);
 }
 
-.faq-box:hover{
+.faq-box:hover {
     background-color: rgb(118, 118, 118);
 }
 
-.faq-bottom{
+.faq-bottom {
     text-align: center;
     padding: 24px;
     border: 20px;
 }
-.faq-bottom h3{
-    color: rgb(255,255,255);
+
+.faq-bottom h3 {
+    color: rgb(255, 255, 255);
 
 }
-.faq-bottom-btns{
+
+.faq-bottom-btns {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.faq-bottom-btns input{
+
+.faq-bottom-btns input {
     font-family: sans-serif;
     padding: 25px 101px 15px 10px;
     margin: 15px 15px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 4px;
     border: 1px solid rgba(246, 238, 238, 0.5);
     background-color: rgba(23, 23, 23, 0.7);
     text-align: left;
 }
-.red-faq{
+
+.red-faq {
     padding: 18px 10px;
 }
 
 
 /* Footer css  */
-footer{
-    color: rgba(255,255,255,0.7);
+footer {
+    color: rgba(255, 255, 255, 0.7);
     max-width: 60vw;
     margin: auto;
     padding: 12px;
 }
-footer h4{
+
+footer h4 {
     padding: 6px 0px;
 }
-.footer-box{
+
+.footer-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
-.footer-box-item a{
-    color: rgba(255,255,255,0.7);
+
+.footer-box-item a {
+    color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
 }
+
 .footer-box-item {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
 
-.footer-last-btn button{
-    padding: 8px 12px;
+.footer-last-btn button {
+    padding: 7px 25px;
     margin: 6px 0px;
     font-weight: 400;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     background-color: black;
     border: 1px solid white;
     border-radius: 3px;
@@ -330,7 +341,91 @@ footer h4{
     font-size: 18px;
 
 }
-footer h5{
+
+footer h5 {
     margin: 6px 0px;
     font-size: 18px;
+}
+
+/*  media querries  */
+
+@media screen and (max-width:1300px) {
+    .footer-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .MainSec {
+        flex-wrap: wrap;
+    }
+
+    .first img {
+        width: 405px;
+    }
+
+    .first video {
+        width: 300px;
+        position: absolute;
+        right: 45px;
+        top: 90px;
+    }
+
+    .third img {
+        width: 405px;
+    }
+    .third .secImgVid video{
+        width: 260px;
+        position: absolute;
+        right: 70px;
+        top: 50px;
+    }
+
+    .fourth img {
+        width: 405px;
+    }
+
+    .topcontent> :first-child {
+        font-size: 34px;
+
+    }
+
+    .topcontent> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .topcontent> :nth-child(3) {
+        font-size: 17px;
+    }
+    .downloadbox {
+        width: 54vw;
+    }
+    .faq-bottom-btns input{
+        padding: 20px 60px 15px 10px;
+        margin: 12px 12px;
+        font-size: 14px;
+    }
+    .red-faq{
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .MainSec>div :nth-child(1) {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+    
+    .MainSec>div :nth-child(2) {
+        top: 40px;
+        font-size: 16px;
+    }
+    .downloadbox>div :first-child {
+        font-size: 12px;
+        padding: 2px 2px;
+    }
+    
+    .downloadbox>div :nth-child(2) {
+        font-size: 12px;
+        padding: 2px 2px;
+    }
+
 }
