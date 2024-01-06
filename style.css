@@ -282,3 +282,29 @@ nav img {
 .red-faq{
     padding: 18px 10px;
 }
+/* Footer css  */
+footer{
+    color: rgba(255,255,255,0.7);
+    max-width: 60vw;
+    margin: auto;
+    padding: 12px;
+}
+footer h4{
+    padding: 6px 0px;
+}
+.footer-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box-item a{
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+}
+.footer-box-item {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
